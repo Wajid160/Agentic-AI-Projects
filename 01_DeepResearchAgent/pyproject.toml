@@ -1,0 +1,19 @@
+[project]
+name = "01-deepresearchagent"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Wajid160", email = "wajidjaved160@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "openai-agents>=0.2.8",
+]
+
+[project.scripts]
+01-deepresearchagent = "01_deepresearchagent:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
